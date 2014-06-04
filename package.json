@@ -1,0 +1,39 @@
+{
+  "name": "opencred-verifier",
+  "version": "0.0.1",
+  "description": "Open Credentials Verifier JavaScript API",
+  "homepage": "http://github.com/digitalbazaar/opencred-verifier",
+  "author": {
+    "name": "Digital Bazaar, Inc.",
+    "email": "support@digitalbazaar.com",
+    "url": "http://digitalbazaar.com/"
+  },
+  "contributors": [{
+    "name": "Dave Longley",
+    "email": "dlongley@digitalbazaar.com"
+  }, {
+    "name": "David I. Lehn",
+    "email": "dlehn@digitalbazaar.com"
+  }],
+  "repository": {
+    "type" : "git",
+    "url" : "http://github.com/digitalbazaar/opencred-verifier"
+  },
+  "bugs": {
+    "url": "https://github.com/digitalbazaar/opencred-verifier/issues",
+    "email": "support@digitalbazaar.com"
+  },
+  "dependencies": {
+    "jsonld": "^0.2.9",
+    "node-forge": "^0.5.5",
+    "underscore": "^1.6.0"
+  },
+  "main": "lib/credentialVerifier.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "keywords": [
+    "identity",
+    "credential"
+  ]
+}
