@@ -23,6 +23,10 @@
     "url": "https://github.com/digitalbazaar/opencred-verifier/issues",
     "email": "support@digitalbazaar.com"
   },
+  "licenses": [{
+    "type": "BSD",
+    "url": "https://github.com/digitalbazaar/opencred-verifier/raw/master/LICENSE"
+  }],
   "dependencies": {
     "jsonld": "^0.2.9",
     "node-forge": "^0.5.5",
