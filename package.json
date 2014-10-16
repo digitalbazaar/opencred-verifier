@@ -28,9 +28,9 @@
     "url": "https://github.com/digitalbazaar/opencred-verifier/raw/master/LICENSE"
   }],
   "dependencies": {
-    "jsonld": "^0.2.9",
-    "node-forge": "^0.5.5",
-    "underscore": "^1.6.0"
+    "jsonld": "~0.3.4",
+    "node-forge": "~0.6.14",
+    "underscore": "~1.7.0"
   },
   "main": "lib/credentialVerifier.js",
   "engines": {
