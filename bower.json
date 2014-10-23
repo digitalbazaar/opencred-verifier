@@ -1,0 +1,20 @@
+{
+  "name": "opencred-verifier",
+  "version": "0.0.7-dev",
+  "description": "Open Credentials Verifier JavaScript API",
+  "homepage": "http://github.com/digitalbazaar/opencred-verifier",
+  "authors": [
+    "Digital Bazaar, Inc."
+  ],
+  "license": "BSD",
+  "main": ["lib/credentialVerifier.js"],
+  "dependencies": {
+    "jsonld": "~0.3.4",
+    "forge": "~0.6.14",
+    "underscore": "~1.7.0"
+  },
+  "ignore": [
+    "node_modules",
+    "bower_components"
+  ]
+}
