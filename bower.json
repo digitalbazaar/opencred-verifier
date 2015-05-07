@@ -9,9 +9,6 @@
   "license": "BSD",
   "main": ["lib/credentialVerifier.js"],
   "dependencies": {
-    "jsonld": "~0.3.4",
-    "forge": "~0.6.14",
-    "underscore": "~1.7.0"
   },
   "ignore": [
     "node_modules",
