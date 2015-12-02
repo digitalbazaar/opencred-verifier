@@ -1,5 +1,12 @@
+*.log
+*.py[co]
+*.sw[nop]
 *~
-.cproject
 .project
 .settings
+TAGS
+bower_components
+coverage
 node_modules
+reports
+
