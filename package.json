@@ -1,6 +1,6 @@
 {
   "name": "opencred-verifier",
-  "version": "0.0.7-dev",
+  "version": "0.1.0",
   "description": "Open Credentials Verifier JavaScript API",
   "homepage": "http://github.com/digitalbazaar/opencred-verifier",
   "author": {
