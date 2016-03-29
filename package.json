@@ -8,29 +8,34 @@
     "email": "support@digitalbazaar.com",
     "url": "http://digitalbazaar.com/"
   },
-  "contributors": [{
-    "name": "Dave Longley",
-    "email": "dlongley@digitalbazaar.com"
-  }, {
-    "name": "David I. Lehn",
-    "email": "dlehn@digitalbazaar.com"
-  }],
+  "contributors": [
+    {
+      "name": "Dave Longley",
+      "email": "dlongley@digitalbazaar.com"
+    },
+    {
+      "name": "David I. Lehn",
+      "email": "dlehn@digitalbazaar.com"
+    }
+  ],
   "repository": {
-    "type" : "git",
-    "url" : "http://github.com/digitalbazaar/opencred-verifier"
+    "type": "git",
+    "url": "http://github.com/digitalbazaar/opencred-verifier"
   },
   "bugs": {
     "url": "https://github.com/digitalbazaar/opencred-verifier/issues",
     "email": "support@digitalbazaar.com"
   },
-  "licenses": [{
-    "type": "BSD",
-    "url": "https://github.com/digitalbazaar/opencred-verifier/raw/master/LICENSE"
-  }],
+  "licenses": [
+    {
+      "type": "BSD",
+      "url": "https://github.com/digitalbazaar/opencred-verifier/raw/master/LICENSE"
+    }
+  ],
   "dependencies": {
-    "jsonld": "^0.4.2",
-    "node-forge": "^0.6.38",
-    "underscore": "~1.7.0"
+    "jsonld": "~0.4.6",
+    "lodash": "^4.6.1",
+    "node-forge": "^0.6.38"
   },
   "main": "lib/credentialVerifier.js",
   "engines": {
